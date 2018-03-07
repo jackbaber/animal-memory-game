@@ -1,0 +1,46 @@
+@import './base/settings';
+@import './base/base';
+
+.icon {
+    // width: 300px;
+    // height: 300px;
+    max-width: 50%;
+}
+
+//Modal styles
+.ReactModalPortal > div {
+    opacity: 0;
+}
+
+.ReactModalPortal .ReactModal__Overlay {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    transition: opacity 200ms ease-in-out;
+}
+
+.ReactModalPortal .ReactModal__Overlay--after-open {
+    opacity: 1;
+}
+
+.ReactModalPortal .ReactModal__Overlay--before-close {
+    opacity: 0;
+}
+
+.modal {
+  color: lightseagreen;
+  font-size: 100px;
+  outline: none;
+  text-align: center;
+  padding: 0px;
+  margin: 0;
+  max-width: 100%;
+}
+
+.modal-button {
+    background-color: lightseagreen;
+}
+
+
+
+
